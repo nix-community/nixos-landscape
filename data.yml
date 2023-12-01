@@ -24,7 +24,7 @@ landscape:
             homepage_url: https://flakestry.dev
             logo: flakestry.png
             name: Flakestry
-            project: official
+            project: community
             repo_url: https://github.com/flakestry/flakestry.dev
           - item:
             description: Semantic Versioning for Nix Flakes 
