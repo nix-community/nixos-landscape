@@ -1,0 +1,120 @@
+landscape:
+  - category:
+    name: Flakes
+    subcategories:
+      - subcategory:
+        name: Flake Versioning
+        items:
+          - item:
+            description: Nix Flake Input Versioning 
+            homepage_url: https://rime.cx
+            logo: rime_logo.png
+            name: RIME
+            project: community
+            repo_url: https://github.com/cafkafk/rime
+          - item:
+            crunchbase: https://www.crunchbase.com/organization/determinate-systems
+            description: Predictable and safe flake updates
+            homepage_url: https://flakehub.com
+            logo: detsys.svg
+            name: FlakeHub
+            project: commercial
+          - item:
+            description:  A public central registry of Nix flakes. 
+            homepage_url: https://flakestry.dev
+            logo: flakestry.png
+            name: Flakestry
+            project: official
+            repo_url: https://github.com/flakestry/flakestry.dev
+          - item:
+            description: Semantic Versioning for Nix Flakes 
+            homepage_url: https://cncf.io
+            logo: snowfall_org.png
+            name: Thaw
+            repo_url: https://github.com/snowfallorg/thaw
+            project: community
+      - subcategory:
+        name: Subcategory 1-2
+        items:
+          - item:
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            description: This is the description of item 4
+            homepage_url: https://cncf.io
+            logo: cncf.svg
+            name: Item 4
+            repo_url: https://github.com/cncf/landscape2
+            twitter: https://twitter.com/CloudNativeFdn
+          - item:
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            description: This is the description of item 5
+            homepage_url: https://cncf.io
+            logo: cncf.svg
+            name: Item 5
+            repo_url: https://github.com/cncf/landscape2
+  - category:
+    name: Builders
+    subcategories:
+      - subcategory:
+        name: Rust
+        items:
+          - item:
+            description: A Nix library for building cargo projects. Never build twice thanks to incremental artifact caching. 
+            logo: cncf.svg
+            name: crane
+            repo_url: https://github.com/ipetkov/crane
+            homepage_url: https://github.com/ipetkov/crane
+          - item:
+            description: Build Rust projects in Nix - no configuration, no code generation, no IFD, sandbox friendly. 
+            logo: cncf.svg
+            name: naersk
+            repo_url: https://github.com/nix-community/naersk
+            homepage_url: https://github.com/nix-community/naersk
+      - subcategory:
+        name: Subcategory 2-2
+        items:
+          - item:
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            description: This is the description of item 9
+            homepage_url: https://cncf.io
+            logo: cncf.svg
+            name: Item 9
+            repo_url: https://github.com/cncf/landscape2
+            twitter: https://twitter.com/CloudNativeFdn
+  - category:
+    name: Infrastructure
+    subcategories:
+      - subcategory:
+        name: Deployment Tools
+        items:
+          - item:
+            description: A Nix library for building cargo projects. Never build twice thanks to incremental artifact caching. 
+            logo: cncf.svg
+            name: crane
+            repo_url: https://github.com/ipetkov/crane
+            homepage_url: https://github.com/ipetkov/crane
+          - item:
+            description: Build Rust projects in Nix - no configuration, no code generation, no IFD, sandbox friendly. 
+            logo: cncf.svg
+            name: naersk
+            repo_url: https://github.com/nix-community/naersk
+            homepage_url: https://github.com/nix-community/naersk
+  - category:
+    name: Documentation
+    subcategories:
+      - subcategory:
+        name: Wikis
+        items:
+          - item:
+            description: An unofficial, maintained wiki for NixOS.
+            logo: nixos.webp
+            name: NixLang Wiki
+            repo_url: https://github.com/nixlang-wiki/nixlang-wiki
+            homepage_url: https://nixlang.wiki
+          - item:
+            description: Build Rust projects in Nix - no configuration, no code generation, no IFD, sandbox friendly. 
+            logo: cncf.svg
+            name: naersk
+            repo_url: https://github.com/nix-community/naersk
+            homepage_url: https://github.com/nix-community/naersk
+
+
