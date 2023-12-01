@@ -28,29 +28,21 @@ landscape:
             repo_url: https://github.com/flakestry/flakestry.dev
           - item:
             description: Semantic Versioning for Nix Flakes 
-            homepage_url: https://cncf.io
+            homepage_url: https://github.com/snowfallorg/thaw
             logo: snowfall_org.png
             name: Thaw
             repo_url: https://github.com/snowfallorg/thaw
             project: community
       - subcategory:
-        name: Subcategory 1-2
+        name: Libraries
         items:
           - item:
-            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-            description: This is the description of item 4
-            homepage_url: https://cncf.io
-            logo: cncf.svg
-            name: Item 4
-            repo_url: https://github.com/cncf/landscape2
-            twitter: https://twitter.com/CloudNativeFdn
-          - item:
-            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-            description: This is the description of item 5
-            homepage_url: https://cncf.io
-            logo: cncf.svg
-            name: Item 5
-            repo_url: https://github.com/cncf/landscape2
+            description: Unified configuration for systems, packages, modules, shells, templates, and more with Nix Flakes. 
+            homepage_url: https://github.com/snowfallorg/lib
+            logo: snowfall_org.png
+            name: Snowfall Lib
+            repo_url: https://github.com/snowfallorg/thaw
+            project: community
   - category:
     name: Builders
     subcategories:
@@ -59,27 +51,16 @@ landscape:
         items:
           - item:
             description: A Nix library for building cargo projects. Never build twice thanks to incremental artifact caching. 
-            logo: cncf.svg
+            logo: nixos.webp
             name: crane
             repo_url: https://github.com/ipetkov/crane
             homepage_url: https://github.com/ipetkov/crane
           - item:
             description: Build Rust projects in Nix - no configuration, no code generation, no IFD, sandbox friendly. 
-            logo: cncf.svg
+            logo: nixos.webp
             name: naersk
             repo_url: https://github.com/nix-community/naersk
             homepage_url: https://github.com/nix-community/naersk
-      - subcategory:
-        name: Subcategory 2-2
-        items:
-          - item:
-            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-            description: This is the description of item 9
-            homepage_url: https://cncf.io
-            logo: cncf.svg
-            name: Item 9
-            repo_url: https://github.com/cncf/landscape2
-            twitter: https://twitter.com/CloudNativeFdn
   - category:
     name: Infrastructure
     subcategories:
@@ -87,17 +68,23 @@ landscape:
         name: Deployment Tools
         items:
           - item:
-            description: A Nix library for building cargo projects. Never build twice thanks to incremental artifact caching. 
-            logo: cncf.svg
-            name: crane
-            repo_url: https://github.com/ipetkov/crane
-            homepage_url: https://github.com/ipetkov/crane
+            description: A simple, stateless NixOS deployment tool 
+            logo: nixos.webp
+            name: colmena
+            repo_url: https://github.com/zhaofengli/colmena
+            homepage_url: https://github.com/zhaofengli/colmena
           - item:
-            description: Build Rust projects in Nix - no configuration, no code generation, no IFD, sandbox friendly. 
-            logo: cncf.svg
-            name: naersk
-            repo_url: https://github.com/nix-community/naersk
-            homepage_url: https://github.com/nix-community/naersk
+            description: NixOS deployment tool 
+            logo: dbc_digital.png
+            name: morph
+            repo_url: https://github.com/dbcdk/morph
+            homepage_url: https://github.com/dbcdk/morph
+          - item:
+            description: A simple multi-profile Nix-flake deploy tool. 
+            logo: serokell.png
+            name: deploy-rs
+            repo_url: https://github.com/serokell/deploy-rs
+            homepage_url: https://github.com/serokell/deploy-rs
   - category:
     name: Documentation
     subcategories:
@@ -108,13 +95,13 @@ landscape:
             description: An unofficial, maintained wiki for NixOS.
             logo: nixos.webp
             name: NixLang Wiki
+            project: community
             repo_url: https://github.com/nixlang-wiki/nixlang-wiki
             homepage_url: https://nixlang.wiki
           - item:
-            description: Build Rust projects in Nix - no configuration, no code generation, no IFD, sandbox friendly. 
-            logo: cncf.svg
-            name: naersk
-            repo_url: https://github.com/nix-community/naersk
+            description: unnofficial wiki
+            logo: nixos.webp
+            name: nixos.wiki
             homepage_url: https://github.com/nix-community/naersk
 
 
