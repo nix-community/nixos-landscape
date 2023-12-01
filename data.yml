@@ -61,6 +61,12 @@ landscape:
             name: naersk
             repo_url: https://github.com/nix-community/naersk
             homepage_url: https://github.com/nix-community/naersk
+          - item:
+            description: nix build file generator for rust crates 
+            logo: nixos.webp
+            name: crate2nix
+            repo_url: https://github.com/nix-community/crate2nix
+            homepage_url: https://github.com/nix-community/crate2nix
   - category:
     name: Infrastructure
     subcategories:
@@ -85,6 +91,28 @@ landscape:
             name: deploy-rs
             repo_url: https://github.com/serokell/deploy-rs
             homepage_url: https://github.com/serokell/deploy-rs
+      - subcategory:
+        name: Repositories
+        items:
+          - item:
+            description:  Nix Packages collection & NixOS 
+            logo: nixos.webp
+            name: nixpkgs
+            project: official
+            repo_url: https://github.com/nixos/nixpkgs
+            homepage_url: https://github.com/nixos/nixpkgs
+          - item:
+            description: Nix User Repository
+            logo: nix_community.png
+            name: NUR
+            repo_url: https://github.com/nix-community/nur
+            homepage_url: https://github.com/nix-community/nur
+          - item:
+            description: Monorepo for Semantically Versioned Releases of Crucial Nix Dependencies 
+            logo: semnix.png
+            name: semnix
+            repo_url: https://github.com/semnix/semnix
+            homepage_url: https://github.com/semnix/semnix
   - category:
     name: Documentation
     subcategories:
@@ -93,7 +121,7 @@ landscape:
         items:
           - item:
             description: An unofficial, maintained wiki for NixOS.
-            logo: nixos.webp
+            logo: nixlang.jpg
             name: NixLang Wiki
             project: community
             repo_url: https://github.com/nixlang-wiki/nixlang-wiki
@@ -103,5 +131,10 @@ landscape:
             logo: nixos.webp
             name: nixos.wiki
             homepage_url: https://github.com/nix-community/naersk
+          - item:
+            description: Nix Pills
+            logo: nixos.webp
+            name: Nix Pills
+            homepage_url: https://nixos.org/guides/nix-pills/pr01
 
 

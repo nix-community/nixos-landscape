@@ -20,3 +20,7 @@ buildAndPushContainer:
 
 run:
   docker run -p 8000:80 ghcr.io/nixlang-wiki/nixos-landscape:latest
+
+deploy:
+  just buildAndPushContainer
+  kubectl rollout -n landscape restart statefulset landscape
