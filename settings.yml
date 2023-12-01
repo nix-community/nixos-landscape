@@ -9,7 +9,7 @@
 #
 # foundation: <FOUNDATION_NAME>
 #
-foundation: DEMO
+foundation: NixLang
 
 # Images (required)
 #
@@ -22,6 +22,7 @@ foundation: DEMO
 #   open_graph: <OPEN_GRAPH_IMAGE_URL>
 #
 images:
+  favicon: "https://nixos.org/favicon.ico"
   footer_logo: "https://camo.githubusercontent.com/a27f833c7ab58f5c679aa6789488200d6f7bcbdd85b639a13fd0d8becce52da8/68747470733a2f2f692e696d6775722e636f6d2f793359646e62482e706e67"
   header_logo: "https://camo.githubusercontent.com/a27f833c7ab58f5c679aa6789488200d6f7bcbdd85b639a13fd0d8becce52da8/68747470733a2f2f692e696d6775722e636f6d2f793359646e62482e706e67"
 
@@ -154,9 +155,9 @@ groups:
 # Defines the configuration of the QR code that will be displayed on the UI as
 # well as on the downloadable landscape in PDF and PNG formats.
 #
-# qr_code:
-#   url: <URL>
-#
+qr_code:
+  url: "https://nixlang.wiki/qr-code.png"
+
 
 # Screenshot width (optional)
 #

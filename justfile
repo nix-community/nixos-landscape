@@ -19,4 +19,4 @@ buildAndPushContainer:
   just pushContainer
 
 run:
-  docker run -p 8000:80 nixlang/landscape2:latest
+  docker run -p 8000:80 ghcr.io/nixlang-wiki/nixos-landscape:latest
