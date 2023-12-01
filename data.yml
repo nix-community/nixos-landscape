@@ -43,6 +43,13 @@ landscape:
             name: Snowfall Lib
             repo_url: https://github.com/snowfallorg/thaw
             project: community
+          - item:
+            description: Extensible Flake outputs for decentralized Flake output discovery.
+            homepage_url: https://github.com/DeterminateSystems/flake-schemas
+            logo: detsys.svg
+            name: Flake Schemas
+            repo_url: https://github.com/DeterminateSystems/flake-schemas
+            project: community
   - category:
     name: Builders
     subcategories:
@@ -113,6 +120,40 @@ landscape:
             name: semnix
             repo_url: https://github.com/semnix/semnix
             homepage_url: https://github.com/semnix/semnix
+      - subcategory:
+        name: Security
+        items:
+          - item:
+            description: Automatically refresh your Nix flake dependencies.
+            logo: detsys.svg
+            name: update-flake-lock
+            project: community
+            repo_url: https://github.com/DeterminateSystems/update-flake-lock
+            homepage_url: https://github.com/DeterminateSystems/update-flake-lock
+          - item:
+            description: Health and security checks on your flakes.
+            logo: detsys.svg
+            name: Nix Flake Checker
+            project: community
+            repo_url: https://github.com/DeterminateSystems/flake-checker
+            homepage_url: https://github.com/DeterminateSystems/flake-checker
+
+      - subcategory:
+        name: CI / CD
+        items:
+          - item:
+            description: Based on the Determinate Nix Installer, responsible for over tens of thousands of Nix installs daily. The fast, friendly, and reliable GitHub Action to install Nix with Flakes.
+            logo: detsys.svg
+            name: The Determinate Nix Installer Action
+            repo_url: https://github.com/DeterminateSystems/nix-installer-action
+            homepage_url: https://install.determinate.systems
+          - item:
+            description: Save 30-50%+ of CI time without any effort or cost. Use Magic Nix Cache, a totally free and zero-configuration binary cache for Nix on GitHub Actions.
+            logo: detsys.svg
+            name: Magic Nix Cache
+            repo_url: https://github.com/DeterminateSystems/magic-nix-cache-action
+            homepage_url: https://github.com/marketplace/actions/magic-nix-cache
+
   - category:
     name: Documentation
     subcategories:
@@ -136,5 +177,14 @@ landscape:
             logo: nixos.webp
             name: Nix Pills
             homepage_url: https://nixos.org/guides/nix-pills/pr01
-
+      - subcategory:
+        name: Tutorials
+        items:
+          - item:
+            description: Your guide to learning Nix and flakes.
+            logo: detsys.svg
+            name: Zero to Nix
+            project: community
+            repo_url: https://github.com/DeterminateSystems/zero-to-nix
+            homepage_url: https://zero-to-nix.com
 
