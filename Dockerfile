@@ -1,3 +1,8 @@
+# SPDX-FileCopyrightText: 2023 Christina Sørensen
+# SPDX-FileContributor: Christina Sørensen
+#
+# SPDX-License-Identifier: AGPL-3.0-only
+
 # Build CLI tool
 FROM rust:1-alpine3.18 as builder
 RUN apk --no-cache add musl-dev perl make libconfig-dev openssl-dev yarn
