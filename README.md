@@ -24,5 +24,9 @@ and adjacent projects. This is based on the software from the Cloud Native
 Compute Foundation, https://github.com/cncf/landscape2, and hosted on the
 https://nixlang.wiki kubernetes cluster.
 
+## Contributing
+
+Please take a look at [CONTRIBUTING.md](/CONTRIBUTING.md) for info about
+contributiong to NixOS Landscape.
 
 
