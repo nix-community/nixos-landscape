@@ -55,6 +55,16 @@ landscape:
             name: Flake Schemas
             repo_url: https://github.com/DeterminateSystems/flake-schemas
             project: community
+      - subcategory:
+        name: CLI
+        items:
+          - item:
+            description: Simplify Nix Flakes on the command line.
+            homepage_url: https://github.com/snowfallorg/flake
+            logo: snowfall_org.png
+            name: Snowfall Flake
+            repo_url: https://github.com/snowfallorg/flake
+            project: community
   - category:
     name: Builders
     subcategories:
