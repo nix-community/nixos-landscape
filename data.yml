@@ -55,6 +55,13 @@ landscape:
             name: Flake Schemas
             repo_url: https://github.com/DeterminateSystems/flake-schemas
             project: community
+          - item:
+            description:  Pure Nix flake utility functions
+            homepage_url: https://github.com/numtide/flake-utils
+            logo: numtide.png
+            name: flake-utils
+            repo_url: https://github.com/numtide/flake-utils
+            project: community
       - subcategory:
         name: CLI
         items:
