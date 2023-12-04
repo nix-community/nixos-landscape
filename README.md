@@ -19,7 +19,7 @@ The Landscape of NixOS and associated projects
 
 ## What is NixOS Landscape
 
-NixOS Landscape, https://landscape.nixos.org, is a project to map Nix, NixOS,
+NixOS Landscape, https://landscape.nixlang.wiki, is a project to map Nix, NixOS,
 and adjacent projects. This is based on the software from the Cloud Native
 Compute Foundation, https://github.com/cncf/landscape2, and hosted on the
 https://nixlang.wiki kubernetes cluster.
