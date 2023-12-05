@@ -36,6 +36,30 @@ conventional commits, cargo clippy lints, REUSE compliance, and much more.
 It also contains a pre-commit-hook making it a lot easier not to make potential
 mistakes that will unnescesarrily delay getting your PRs accepted.
 
+## Changing the landscape
+
+If you have either allowed direnv or ran `nix develop` in the repository, you
+should have everything you need to add to the landscape.
+
+There are a few files of interest.
+
+- `data.yml`: where individual projects are added.
+- `guide-yml`: where guide information is added.
+- `settings.yml`: where things such as major categories and tags are added.
+
+Most changes to the landscape will happen in `data.yml`.
+
+### Testing Changes
+
+To test your additons, you'll have to first rebuild the landscape and then
+serve it.
+
+To build it, run `just build`, then follow that with `just serve` to launch 
+a local instance of the landscape.
+
+Please check the launched webapp and make sure that your changes render
+properly, and that you haven't broken anything.
+
 ## Before submitting a PR
 
 Please make sure that the thing you worked on... actually works. Make sure to
@@ -45,9 +69,8 @@ test suite, so you'll have to use your best judgment.
 
 Before submitting, you MUST have run `nix flake check` and ensured that all
 issues are addressed. For formatting issues, `nix fmt` will format the code for
-you. Most clippy issues can be resolved with `cargo clippy --fix` (although it
-might be eduational to fix them yourself). If you have reuse issues, you can
-run the following command to annotate your code:
+you. If you have reuse issues, you can run the following command to annotate
+your code:
 
 ```
 reuse annotate --license AGPL-3.0-only --contributor "<Your name>" --copyright "<Your name>" <file(s) you'd like to annotate>
