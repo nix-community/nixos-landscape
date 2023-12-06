@@ -216,4 +216,18 @@ landscape:
             project: community
             repo_url: https://github.com/DeterminateSystems/zero-to-nix
             homepage_url: https://zero-to-nix.com
-
+      - subcategory:
+        name: Videos
+        items:
+          - item:
+            description: Nix Conference Videos
+            logo: nixos.webp
+            name: NixCon
+            project: community
+            homepage_url: https://www.youtube.com/@NixCon
+          - item:
+            description: NixOS Foundation channel
+            logo: nixos.webp
+            name: NixOS Foundation
+            project: official
+            homepage_url: https://www.youtube.com/@NixOS-Foundation
