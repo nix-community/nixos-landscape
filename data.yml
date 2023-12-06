@@ -248,3 +248,14 @@ landscape:
             project: official
             repo_url: https://github.com/NixOS/nixpkgs/tree/master/nixos/doc/manual
             homepage_url: https://nixos.org/manual/nixos/stable/
+
+      - subcategory:
+        name: Index
+        items:
+          - item:
+            description: NixPkgs, NixOS Options and Flakes search tool.
+            logo: nixos.webp
+            name: nixos-search
+            project: official
+            repo_url: https://github.com/NixOS/nixos-search/
+            homepage_url: https://search.nixos.org
