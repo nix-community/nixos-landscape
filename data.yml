@@ -259,3 +259,19 @@ landscape:
             project: official
             repo_url: https://github.com/NixOS/nixos-search/
             homepage_url: https://search.nixos.org
+
+      - subcategory:
+        name: Videos
+        items:
+          - item:
+            description: Nix Conference Videos
+            logo: nixos.webp
+            name: NixCon
+            project: community
+            homepage_url: https://www.youtube.com/@NixCon
+          - item:
+            description: NixOS Foundation channel
+            logo: nixos.webp
+            name: NixOS Foundation
+            project: official
+            homepage_url: https://www.youtube.com/@NixOS-Foundation
