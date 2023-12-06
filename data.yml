@@ -216,4 +216,11 @@ landscape:
             project: community
             repo_url: https://github.com/DeterminateSystems/zero-to-nix
             homepage_url: https://zero-to-nix.com
+          - item:
+            description: Home of official documentation for the Nix ecosystem.
+            logo: nixos.webp
+            name: dev.nix
+            project: official
+            repo_url: https://github.com/nixos/nix.dev
+            homepage_url: https://nix.dev/
 
