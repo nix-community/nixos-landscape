@@ -64,10 +64,10 @@ landscape:
             project: community
           - item:
             description: Simplify Nix Flakes with the module system 
-            homepage_url: https://github.com/hercules-ci/flake-parts
+            homepage_url:  https://flake.parts/
             logo: flake-parts.svg
             name: flake-parts
-            repo_url: https://flake.parts/
+            repo_url: https://github.com/hercules-ci/flake-parts
             project: community
       - subcategory:
         name: CLI
