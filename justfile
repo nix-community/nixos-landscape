@@ -29,3 +29,19 @@ run:
 deploy:
   just buildAndPushContainer
   kubectl rollout -n landscape restart statefulset landscape
+
+rust-build:
+  #!/usr/bin/env sh
+  set -euxo pipefail
+  cd src
+  cargo build
+  cp target/debug/landscape2 ../landscape2
+  cd ..
+
+rust-build-release:
+  #!/usr/bin/env sh
+  set -euxo pipefail
+  cd src
+  cargo build --release
+  cp target/release/landscape2 ../landscape2
+  cd ..
