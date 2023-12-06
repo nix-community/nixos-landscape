@@ -216,4 +216,13 @@ landscape:
             project: community
             repo_url: https://github.com/DeterminateSystems/zero-to-nix
             homepage_url: https://zero-to-nix.com
-
+      - subcategory:
+        name: Index
+        items:
+          - item:
+            description: NixPkgs, NixOS Options and Flakes search tool.
+            logo: nixos.webp
+            name: nixos-search
+            project: official
+            repo_url: https://github.com/NixOS/nixos-search/
+            homepage_url: https://search.nixos.org
