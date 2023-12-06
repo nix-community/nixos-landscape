@@ -69,6 +69,13 @@ landscape:
             name: flake-parts
             repo_url: https://flake.parts/
             project: community
+          - item:
+            description: Framework for simplifying flake setup
+            homepage_url: https://github.com/accelbread/flakelight
+            logo: nixos.webp
+            name: Flakelight
+            repo_url: https://github.com/accelbread/flakelight
+            project: community
       - subcategory:
         name: CLI
         items:
