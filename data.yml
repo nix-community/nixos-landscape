@@ -191,7 +191,7 @@ landscape:
         items:
           - item:
             description: An unofficial, maintained wiki for NixOS.
-            logo: nixlang.jpg
+            logo: nixlang.png
             name: NixLang Wiki
             project: community
             repo_url: https://github.com/nixlang-wiki/nixlang-wiki
