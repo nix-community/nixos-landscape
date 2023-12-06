@@ -216,4 +216,27 @@ landscape:
             project: community
             repo_url: https://github.com/DeterminateSystems/zero-to-nix
             homepage_url: https://zero-to-nix.com
-
+      - subcategory:
+        name: Books
+        items:
+          - item:
+            description: Nix Reference Manual.
+            logo: nixos.webp
+            name: Nix Manual
+            project: official
+            repo_url: https://github.com/NixOS/nix/tree/master/doc/manual
+            homepage_url: https://nixos.org/manual/nix/stable/
+          - item:
+            description: NixPkgs Manual.
+            logo: nixos.webp
+            name: NixPkgs Manual
+            project: official
+            repo_url: https://github.com/NixOS/nixpkgs/tree/master/doc
+            homepage_url: https://nixos.org/manual/nixpkgs/stable/
+          - item:
+            description: NixOS Manual.
+            logo: nixos.webp
+            name: NixOS Manual
+            project: official
+            repo_url: https://github.com/NixOS/nixpkgs/tree/master/nixos/doc/manual
+            homepage_url: https://nixos.org/manual/nixos/stable/
