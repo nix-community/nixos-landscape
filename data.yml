@@ -201,11 +201,7 @@ landscape:
             logo: nixos.webp
             name: nixos.wiki
             homepage_url: https://github.com/nix-community/naersk
-          - item:
-            description: Nix Pills
-            logo: nixos.webp
-            name: Nix Pills
-            homepage_url: https://nixos.org/guides/nix-pills/pr01
+
       - subcategory:
         name: Tutorials
         items:
@@ -216,4 +212,10 @@ landscape:
             project: community
             repo_url: https://github.com/DeterminateSystems/zero-to-nix
             homepage_url: https://zero-to-nix.com
+          - item:
+            description: Nix Pills
+            logo: nixos.webp
+            name: Nix Pills
+            homepage_url: https://nixos.org/guides/nix-pills/pr01
+            project: community
 
