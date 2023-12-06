@@ -202,6 +202,7 @@ landscape:
             description: Nix Binary Cache hosting infrastructure.
             logo: cachix.png
             name: cachix
+            crunchbase: https://www.crunchbase.com/organization/cachix
             project: commercial
             repo_url: https://github.com/cachix/cachix
             homepage_url: https://cachix.org/
