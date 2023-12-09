@@ -69,6 +69,13 @@ landscape:
             name: flake-parts
             repo_url: https://github.com/hercules-ci/flake-parts
             project: community
+          - item:
+            description: Framework for simplifying flake setup
+            homepage_url: https://github.com/accelbread/flakelight
+            logo: nixos.webp
+            name: Flakelight
+            repo_url: https://github.com/accelbread/flakelight
+            project: community
       - subcategory:
         name: CLI
         items:
@@ -103,6 +110,16 @@ landscape:
             name: crate2nix
             repo_url: https://github.com/nix-community/crate2nix
             homepage_url: https://github.com/nix-community/crate2nix
+      - subcategory:
+        name: Any
+        items:
+          - item:
+            description: Fast, Declarative, Reproducible, and Composable Developer Environments.
+            logo: devenv.png
+            name: devenv
+            project: community
+            repo_url: https://github.com/cachix/devenv
+            homepage_url: https://devenv.sh/
   - category:
     name: Infrastructure
     subcategories:
@@ -127,6 +144,12 @@ landscape:
             name: deploy-rs
             repo_url: https://github.com/serokell/deploy-rs
             homepage_url: https://github.com/serokell/deploy-rs
+          - item:
+            description: Continuous deployments to a Nix profile (like NixOS, nix-darwin or Home Manager) using a pull model.
+            logo: cachix.png
+            name: cachix-deploy
+            project: commercial
+            homepage_url: https://app.cachix.org/deploy/
       - subcategory:
         name: Repositories
         items:
@@ -188,6 +211,18 @@ landscape:
             name: Hercules CI
             project: commercial
             homepage_url: https://hercules-ci.com/
+            description: Nix Binary Cache hosting infrastructure.
+            logo: cachix.png
+            name: cachix
+            crunchbase: https://www.crunchbase.com/organization/cachix
+            project: commercial
+            repo_url: https://github.com/cachix/cachix
+            homepage_url: https://cachix.org/
+          - item:
+            description: Installs Nix on GitHub Actions for Linux and macOS.
+            logo: cachix.png
+            name: install-nix-action
+            homepage_url: https://github.com/cachix/install-nix-action
 
   - category:
     name: Documentation
