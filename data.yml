@@ -206,6 +206,12 @@ landscape:
             repo_url: https://github.com/DeterminateSystems/magic-nix-cache-action
             homepage_url: https://github.com/marketplace/actions/magic-nix-cache
           - item:
+            description: Simple Nix-first Continous Integration.
+            logo: hercules.svg
+            name: Hercules CI
+            project: commercial
+            homepage_url: https://hercules-ci.com/
+          - item:
             description: Nix Binary Cache hosting infrastructure.
             logo: cachix.png
             name: cachix
