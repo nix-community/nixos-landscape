@@ -301,6 +301,13 @@ landscape:
             project: official
             repo_url: https://github.com/NixOS/nixos-search/
             homepage_url: https://search.nixos.org
+          - item:
+            description: NixPkgs, NixOS + Home-Manager Options and Flakes search tool.
+            logo: nixos.webp
+            name: mynixos
+            project: community
+            repo_url:
+            homepage_url: https://mynixos.com
 
       - subcategory:
         name: Videos
