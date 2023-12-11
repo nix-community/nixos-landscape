@@ -141,6 +141,7 @@ groups:
       - Builders
       - Infrastructure
       - Documentation
+      - Others
   - name: Flakes
     categories:
       - Flakes
