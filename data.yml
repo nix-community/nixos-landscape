@@ -318,10 +318,10 @@ landscape:
             project: official
             homepage_url: https://www.youtube.com/@NixOS-Foundation
   - category:
-    name: No Category
+    name: Others
     subcategories:
       - subcategory:
-        name: Other
+        name: Uncategorized
         items:
           - item:
             description: A repository containing all of the cabal files for all public Haskell packages converted to json
