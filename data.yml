@@ -1217,6 +1217,12 @@ landscape:
             repo_url: https://github.com/serokell/vault-secrets
             homepage_url: https://github.com/serokell/vault-secrets
           - item:
+            description: Make creation of Wireguard mesh networks easier.
+            logo: default.webp
+            name: wirenix
+            repo_url: https://man.sr.ht/~msalerno/wirenix/
+            homepage_url: https://man.sr.ht/~msalerno/wirenix/
+          - item:
             description: Vulnerability (CVE) scanner for Nix/NixOS.
             logo: nix_community.png
             name: vulnix
