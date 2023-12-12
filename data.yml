@@ -523,6 +523,12 @@ landscape:
             repo_url: https://github.com/nix-community/go-nix
             homepage_url: https://github.com/nix-community/go-nix
           - item:
+            description: Generate Nix expressions which build Gradle-based projects.
+            logo: default.webp
+            name: gradle2nix
+            repo_url: https://github.com/tadfisher/gradle2nix
+            homepage_url: https://github.com/tadfisher/gradle2nix
+          - item:
             description: Nix binary cache implemented in rust
             logo: nix_community.png
             name: harmonia
