@@ -458,6 +458,12 @@ landscape:
             repo_url: https://github.com/nix-community/cache-nix-action
             homepage_url: https://github.com/nix-community/cache-nix-action
           - item:
+            description: Convert deps.edn to a nix expression
+            logo: default.webp
+            name: clj2nix
+            repo_url: https://github.com/hlolli/clj2nix
+            homepage_url: https://github.com/hlolli/clj2nix
+          - item:
             description: Comma runs software without installing it
             logo: nix_community.png
             name: comma
@@ -656,6 +662,12 @@ landscape:
             repo_url: https://github.com/nix-community/nixbox
             homepage_url: https://github.com/nix-community/nixbox
           - item:
+            description: Nix+Bazel Codelab
+            logo: tweag.png
+            name: nix_bazel_codelab
+            repo_url: https://github.com/tweag/nix_bazel_codelab
+            homepage_url: https://github.com/tweag/nix_bazel_codelab
+          - item:
             description: Fast, secure and scalable Nix builds as a service.
             logo: nixbuild.svg
             name: nixbuild.net
@@ -801,6 +813,12 @@ landscape:
             repo_url: https://github.com/serokell/nixfmt
             homepage_url: https://github.com/serokell/nixfmt
           - item:
+            description: Run Marp tools via Nix
+            logo: tweag.png
+            name: nix-marp
+            repo_url: https://github.com/tweag/nix-marp
+            homepage_url: https://github.com/tweag/nix-marp
+          - item:
             description: install nixos everywhere via ssh
             logo: nix_community.png
             name: nixos-anywhere
@@ -818,6 +836,12 @@ landscape:
             name: nixos-generators
             repo_url: https://github.com/nix-community/nixos-generators
             homepage_url: https://github.com/nix-community/nixos-generators
+          - item:
+            description: Questions for the weekly Nix Hour.
+            logo: tweag.png
+            name: nix-hour
+            repo_url: https://github.com/tweag/nix-hour
+            homepage_url: https://www.youtube.com/playlist?list=PLyzwHTVJlRc8yjlx4VR4LU5A5O44og9in
           - item:
             description: scripts to install NixOS on various server
             logo: nix_community.png 
@@ -841,6 +865,18 @@ landscape:
             logo: default.webp
             name: nix-packages-history
             homepage_url: https://history.nix-packages.com/
+          - item:
+            description: Generate a graph from nixpkgs
+            logo: tweag.png
+            name: nixpkgs-graph
+            repo_url: https://github.com/tweag/nixpkgs-graph
+            homepage_url: https://github.com/tweag/nixpkgs-graph
+          - item:
+            description: Explore the nixpkgs dependency graph
+            logo: tweag.png
+            name: nixpkgs-graph-explorer
+            repo_url: https://github.com/tweag/nixpkgs-graph-explorer
+            homepage_url: https://github.com/tweag/nixpkgs-graph-explorer
           - item:
             description: nixpkgs lib for cheap instantiation
             logo: nix_community.png 
@@ -874,6 +910,12 @@ landscape:
             repo_url: https://github.com/nix-community/nixpkgs-terraform-providers-bin
             homepage_url: https://github.com/nix-community/nixpkgs-terraform-providers-bin
           - item:
+            description: Re-implementation of Nix remote build protocol
+            logo: tweag.png
+            name: nix-remote-rust
+            repo_url: https://github.com/tweag/nix-remote-rust
+            homepage_url: https://github.com/tweag/nix-remote-rust
+          - item:
             description:  Build nix packages that use npm/yarn 
             logo: default.webp
             name: nix-npm-buildpackage
@@ -903,6 +945,12 @@ landscape:
             name: nixt
             repo_url: https://github.com/nix-community/nixt
             homepage_url: https://github.com/nix-community/nixt
+          - item:
+            description: A CLI tool to extract the graph of derivations from a Nix flake.
+            logo: tweag.png
+            name: nixtract
+            repo_url: https://github.com/tweag/nixtract
+            homepage_url: https://github.com/tweag/nixtract
           - item:
             description: Unit testing for Nix code
             logo: nix_community.png 
@@ -974,6 +1022,12 @@ landscape:
             repo_url: https://github.com/nix-community/nurl
             homepage_url: https://github.com/nix-community/nurl
           - item:
+            description: Turn opam-based OCaml projects into Nix derivations
+            logo: tweag.png
+            name: opam-nix
+            repo_url: https://github.com/tweag/opam-nix
+            homepage_url: https://github.com/tweag/opam-nix
+          - item:
             description: A command-line tool for patching shell scripts inspired by resholve
             logo: nix_community.png
             name: patsh
@@ -1033,6 +1087,12 @@ landscape:
             name: robotinix
             repo_url: https://github.com/nix-community/robotinix
             homepage_url: https://github.com/nix-community/robotinix
+          - item:
+            description: Rules for importing Nixpkgs packages into Bazel.
+            logo: tweag.png
+            name: rules_nixpkgs
+            repo_url: https://github.com/tweag/rules_nixpkgs
+            homepage_url: https://github.com/tweag/rules_nixpkgs
           - item:
             description: NixOS profiles for servers
             logo: nix_community.png
