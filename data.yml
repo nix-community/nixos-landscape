@@ -612,6 +612,12 @@ landscape:
             repo_url: https://github.com/nix-community/nixd
             homepage_url: https://github.com/nix-community/nixd
           - item:
+            description:  Swiss army knife container for vscode development environments
+            logo: default.webp
+            name: nix-devcontainer
+            repo_url: https://github.com/xtruder/nix-devcontainer
+            homepage_url: https://github.com/xtruder/nix-devcontainer
+          - item:
             description: Tool to generate documentation for Nix library functions
             logo: nix_community.png
             name: nixdoc
