@@ -76,6 +76,12 @@ landscape:
             name: Flakelight
             repo_url: https://github.com/nix-community/flakelight
             project: community
+          - item:
+            description:  builtins.getFlake without the restrictions
+            homepage_url: https://github.com/ursi/get-flake
+            logo: default.webp
+            name: get-flake
+            repo_url: https://github.com/ursi/get-flake
       - subcategory:
         name: CLI
         items:
@@ -677,6 +683,19 @@ landscape:
             name: NixOS
             project: official
             repo_url: https://github.com/NixOS/nixpkgs/tree/master/nixos
+          - item:
+            description: Nix based Linux Distribution
+            homepage_url: https://mobile.nixos.org/
+            logo: nixos.webp
+            name: Mobile NixOS
+            project: official
+            repo_url: https://github.com/NixOS/mobile-nixos
+          - item:
+            description: SnowflakeOS is a NixOS based Linux distribution focused on beginner friendliness and ease of use.
+            homepage_url: https://snowflakeos.org/
+            logo: nixos.webp
+            name: SnowflakeOS
+            repo_url: https://github.com/snowflakelinux/snowflake-modules
           - item:
             description: install nixos everywhere via ssh
             logo: nix_community.png
