@@ -264,6 +264,12 @@ landscape:
             repo_url: https://github.com/NixOS/hydra
             homepage_url:  https://nixos.org/hydra 
           - item:
+            description: NixOps is a tool for deploying to NixOS machines in a network or cloud.
+            logo: nixos.webp
+            name: NixOps
+            repo_url: https://github.com/NixOS/nixops
+            homepage_url:  https://nixos.org/nixops
+          - item:
             description: Nix Binary Cache hosting infrastructure.
             logo: cachix.png
             name: cachix
