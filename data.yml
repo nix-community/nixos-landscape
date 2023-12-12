@@ -133,6 +133,13 @@ landscape:
             project: community
             repo_url: https://github.com/numtide/devshell
             homepage_url: https://numtide.github.io/devshell/
+          - item:
+            description: Build software collaboratively with the power of AI, on any device, without spending a second on setup.
+            logo: replit.png
+            name: replit
+            project: commercial
+            homepage_url: https://replit.com/
+ 
   - category:
     name: Infrastructure
     subcategories:
@@ -680,7 +687,7 @@ landscape:
             homepage_url: https://github.com/nix-community/nixdoc
           - item:
             description: An automatic editor for replit.nix files
-            logo: default.webp
+            logo: replit.png
             name: nix-editor
             repo_url: https://github.com/replit/nix-editor
             homepage_url: https://github.com/replit/nix-editor
