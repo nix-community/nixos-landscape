@@ -320,6 +320,13 @@ landscape:
             project: official
             repo_url: https://github.com/NixOS/nixpkgs/tree/master/nixos/doc/manual
             homepage_url: https://nixos.org/manual/nixos/stable/
+          - item:
+            description: Nix Book.
+            logo: default.webp
+            name: Nix Book
+            repo_url: https://github.com/divnix/nix-book
+            homepage_url:  https://book.divnix.com
+
 
       - subcategory:
         name: Index
@@ -1038,6 +1045,12 @@ landscape:
             name: vulnix
             repo_url: https://github.com/nix-community/vulnix
             homepage_url: https://github.com/nix-community/vulnix
+          - item:
+            description: This is a tiny type-checker for data in Nix, written in Nix.
+            logo: nix_community.png
+            name: yants
+            repo_url: https://github.com/divnix/yants
+            homepage_url: https://github.com/divnix/yants
           - item:
             description: Convert the dependencies in `build.zig.zon` to a Nix
             logo: nix_community.png
