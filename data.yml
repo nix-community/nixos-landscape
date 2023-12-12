@@ -242,6 +242,12 @@ landscape:
             logo: cachix.png
             name: install-nix-action
             homepage_url: https://github.com/cachix/install-nix-action
+          - item:
+            description: Bob is a high-level build tool for multi-language projects. 
+            logo: default.webp
+            name: Bob
+            project: commercial
+            homepage_url: https://bob.build/
 
   - category:
     name: Documentation
