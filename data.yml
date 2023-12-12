@@ -1016,6 +1016,12 @@ landscape:
             repo_url: https://github.com/nix-community/nur-search
             homepage_url: https://github.com/nix-community/nur-search
           - item:
+            description: A standalone Nix binary cache server
+            logo: default.webp
+            name: nur-serve
+            repo_url: https://github.com/edolstra/nix-serve
+            homepage_url: https://github.com/edolstra/nix-serve
+          - item:
             description:  Nix Flake templates for various languages
             logo: serokell.png
             name: nix-templates
@@ -1099,6 +1105,12 @@ landscape:
             name: rules_nixpkgs
             repo_url: https://github.com/tweag/rules_nixpkgs
             homepage_url: https://github.com/tweag/rules_nixpkgs
+          - item:
+            description: Run nix software without installing nix!
+            logo: default.webp
+            name: runix
+            repo_url: https://github.com/timbertson/runix
+            homepage_url: https://github.com/timbertson/runix
           - item:
             description: NixOS profiles for servers
             logo: nix_community.png
