@@ -126,6 +126,13 @@ landscape:
             project: community
             repo_url: https://github.com/cachix/devenv
             homepage_url: https://devenv.sh/
+          - item:
+            description:  Per project developer environments 
+            logo: numtide.png
+            name: devshell
+            project: community
+            repo_url: https://github.com/numtide/devshell
+            homepage_url: https://numtide.github.io/devshell/
   - category:
     name: Infrastructure
     subcategories:
@@ -332,7 +339,12 @@ landscape:
             name: Nix Book
             repo_url: https://github.com/divnix/nix-book
             homepage_url:  https://book.divnix.com
-
+          - item:
+            description: Nix dictionary
+            logo: numtide.png
+            name: nixionary.org
+            repo_url: https://github.com/numtide/nixionary.org
+            homepage_url:  http://nixionary.org/
 
       - subcategory:
         name: Index
@@ -679,6 +691,12 @@ landscape:
             repo_url: https://github.com/nix-community/nixGL
             homepage_url: https://github.com/nix-community/nixGL
           - item:
+            description: Run OpenGL/Cuda programs built with Nix, on all Linux distributions.
+            logo: numtide.png
+            name: nix-gl-host
+            repo_url: https://github.com/numtide/nix-gl-host
+            homepage_url: https://github.com/numtide/nix-gl-host
+          - item:
             description: Search historical versions of nix packages
             logo: default.webp
             name: nixhub.io
@@ -1009,6 +1027,18 @@ landscape:
             repo_url: https://github.com/styx-static/styx
             homepage_url: https://styx-static.github.io/styx-site/
           - item:
+            description: Provide access to vault secrets to systemd services
+            logo: numtide.png
+            name: systemd-vaultd
+            repo_url: https://github.com/numtide/systemd-vaultd
+            homepage_url: https://github.com/numtide/systemd-vaultd
+          - item:
+            description: Manage system config using nix on any distro
+            logo: numtide.png
+            name: system-manager
+            repo_url: https://github.com/numtide/system-manager
+            homepage_url: https://github.com/numtide/system-manager
+          - item:
             description:  Flake templates
             logo: nixos.webp
             name: templates
@@ -1021,6 +1051,12 @@ landscape:
             name: templates nix-community
             repo_url: https://github.com/nix-community/templates
             homepage_url: https://github.com/nix-community/templates
+          - item:
+            description: treefmt nix configuration
+            logo: numtide.png
+            name: treefmt-nix
+            repo_url: https://github.com/numtide/treefmt-nix
+            homepage_url: https://github.com/numtide/treefmt-nix
           - item:
             description: Nix grammar for tree-sitter
             logo: nix_community.png
