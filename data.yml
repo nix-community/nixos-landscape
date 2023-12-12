@@ -218,6 +218,12 @@ landscape:
             project: commercial
             homepage_url: https://hercules-ci.com/
           - item:
+            description: Hydra, the Nix-based continuous build system
+            logo: nixos.webp
+            name: Hydra
+            repo_url: https://github.com/NixOS/hydra
+            homepage_url:  https://nixos.org/hydra 
+          - item:
             description: Nix Binary Cache hosting infrastructure.
             logo: cachix.png
             name: cachix
@@ -329,6 +335,12 @@ landscape:
       - subcategory:
         name: Uncategorized
         items:
+          - item:
+            description: An agenix extension adding secret generation and automatic rekeying using a YubiKey or master-identity
+            logo: default.webp
+            name: agenix-rekey
+            repo_url: https://github.com/oddlama/agenix-rekey
+            homepage_url: https://github.com/oddlama/agenix-rekey
           - item:
             description: A repository containing all of the cabal files for all public Haskell packages converted to json
             logo: nix_community.png
@@ -485,6 +497,12 @@ landscape:
             name: impermanence
             repo_url: https://github.com/nix-community/impermanence
             homepage_url: https://github.com/nix-community/impermanence
+          - item:
+            description:  Node.js modules installation using Nix 
+            logo: default.webp
+            name: js2nix
+            repo_url: https://github.com/canva-public/js2nix
+            homepage_url: https://github.com/canva-public/js2nix
           - item:
             description: krops is a lightweight toolkit to deploy NixOS systems, remotely or locally.
             logo: default.webp
@@ -726,6 +744,18 @@ landscape:
             name: nixpkgs-terraform-providers-bin
             repo_url: https://github.com/nix-community/nixpkgs-terraform-providers-bin
             homepage_url: https://github.com/nix-community/nixpkgs-terraform-providers-bin
+          - item:
+            description:  Build nix packages that use npm/yarn 
+            logo: default.webp
+            name: nix-npm-buildpackage
+            repo_url: https://github.com/serokell/nix-community/nix-npm-buildpackage
+            homepage_url: https://github.com/serokell/nix-community/nix-npm-buildpackage
+          - item:
+            description: A simple gtk4/libadwaita software center to easily install and manage nix packages
+            logo: default.webp
+            name: nix-software-center
+            repo_url: https://github.com/vlinkz/nix-software-center
+            homepage_url: https://github.com/vlinkz/nix-software-center
           - item:
             description: Brings native understanding of Nix packages to containerd
             logo: default.webp
