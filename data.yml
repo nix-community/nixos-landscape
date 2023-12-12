@@ -397,6 +397,12 @@ landscape:
             repo_url: https://github.com/nix-community/all-cabal-json
             homepage_url: https://github.com/nix-community/all-cabal-json
           - item:
+            description: Nix-packaged Android SDK
+            logo: default.webp
+            name: android-nixpkgs
+            repo_url: https://github.com/tadfisher/android-nixpkgs
+            homepage_url: https://github.com/tadfisher/android-nixpkgs
+          - item:
             description: Multi-tenant Nix Binary Cache
             logo: default.webp
             name: attic
@@ -654,6 +660,12 @@ landscape:
             name: nixd
             repo_url: https://github.com/nix-community/nixd
             homepage_url: https://github.com/nix-community/nixd
+          - item:
+            description: Nix builder for Dart packages
+            logo: default.webp
+            name: nix-dart
+            repo_url: https://github.com/tadfisher/nix-dart
+            homepage_url: https://github.com/tadfisher/nix-dart
           - item:
             description:  Swiss army knife container for vscode development environments
             logo: default.webp
