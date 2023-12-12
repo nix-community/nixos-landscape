@@ -679,6 +679,12 @@ landscape:
             repo_url: https://github.com/nix-community/nixdoc
             homepage_url: https://github.com/nix-community/nixdoc
           - item:
+            description: An automatic editor for replit.nix files
+            logo: default.webp
+            name: nix-editor
+            repo_url: https://github.com/replit/nix-editor
+            homepage_url: https://github.com/replit/nix-editor
+          - item:
             description: out-of-tree shell.nix files
             logo: nix_community.png
             name: nix-environments
