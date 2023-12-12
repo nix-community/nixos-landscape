@@ -684,6 +684,12 @@ landscape:
             repo_url: https://github.com/nix-community/nixos-anywhere
             homepage_url: https://github.com/nix-community/nixos-anywhere
           - item:
+            description: A libadwaita/gtk4 app for editing NixOS configurations
+            logo: default.webp
+            name: nixos-config-editor
+            repo_url: https://github.com/vlinkz/nixos-conf-editor
+            homepage_url: https://github.com/vlinkz/nixos-conf-editor
+          - item:
             description: Collection of image builders
             logo: nix_community.png
             name: nixos-generators
