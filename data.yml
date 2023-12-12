@@ -686,6 +686,12 @@ landscape:
             repo_url: https://github.com/tadfisher/nix-dart
             homepage_url: https://github.com/tadfisher/nix-dart
           - item:
+            description: nix modules for darwin
+            logo: nix-darwin.png
+            name: nix-darvin
+            repo_url: https://github.com/LnL7/nix-darwin
+            homepage_url: https://github.com/LnL7/nix-darwin
+          - item:
             description:  Swiss army knife container for vscode development environments
             logo: default.webp
             name: nix-devcontainer
