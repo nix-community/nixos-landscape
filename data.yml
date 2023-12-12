@@ -120,6 +120,13 @@ landscape:
         name: Any
         items:
           - item:
+            description: Instant, easy, and predictable development environments
+            logo: jetpack.png
+            name: devbox
+            project: community
+            repo_url: https://github.com/jetpack-io/devbox
+            homepage_url: https://www.jetpack.io/devbox/
+          - item:
             description: Fast, Declarative, Reproducible, and Composable Developer Environments.
             logo: devenv.png
             name: devenv
