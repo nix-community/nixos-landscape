@@ -212,6 +212,12 @@ landscape:
             repo_url: https://github.com/DeterminateSystems/magic-nix-cache-action
             homepage_url: https://github.com/marketplace/actions/magic-nix-cache
           - item:
+            description: build tool and environment manager that replaces justfiles/makefiles, docker, and the annoying parts of READMEs
+            logo: default.webp
+            name: Garn
+            repo_url: https://github.com/garnix-io/garn
+            homepage_url: https://garn.io/
+          - item:
             description: Makes CI with Nix and garn fast — a few seconds for no-op changes
             logo: default.webp
             name: Garnix CI
