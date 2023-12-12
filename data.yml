@@ -1161,6 +1161,12 @@ landscape:
             repo_url: https://github.com/nix-community/templates
             homepage_url: https://github.com/nix-community/templates
           - item:
+            description: A NixOS way to create terraform json files.
+            logo: terranix.svg
+            name: terranix
+            repo_url: https://github.com/terranix/terranix
+            homepage_url: https://terranix.org/
+          - item:
             description: treefmt nix configuration
             logo: numtide.png
             name: treefmt-nix
