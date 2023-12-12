@@ -206,6 +206,12 @@ landscape:
             repo_url: https://github.com/DeterminateSystems/magic-nix-cache-action
             homepage_url: https://github.com/marketplace/actions/magic-nix-cache
           - item:
+            description: Makes CI with Nix and garn fast — a few seconds for no-op changes
+            logo: default.webp
+            name: Garnix CI
+            project: commercial
+            homepage_url: https://garnix.io/
+          - item:
             description: Simple Nix-first Continous Integration.
             logo: hercules.svg
             name: Hercules CI
@@ -354,6 +360,12 @@ landscape:
             repo_url: https://github.com/rapenne-s/bento/
             homepage_url: https://github.com/rapenne-s/bento/
           - item:
+            description: Nix Ops for Terraform, Consul, Vault, Nomad
+            logo: default.webp
+            name: bitte
+            repo_url: https://github.com/input-output-hk/bitte
+            homepage_url: https://github.com/input-output-hk/bitte
+          - item:
             description: Nix expression for your Bundler-managed application
             logo: nix_community.png
             name: bundix
@@ -474,11 +486,23 @@ landscape:
             repo_url: https://github.com/nix-community/impermanence
             homepage_url: https://github.com/nix-community/impermanence
           - item:
+            description: krops is a lightweight toolkit to deploy NixOS systems, remotely or locally.
+            logo: default.webp
+            name: krops
+            repo_url: https://cgit.krebsco.de/krops/about/
+            homepage_url: https://cgit.krebsco.de/krops/about/
+          - item:
             description: Secure Boot for NixOS
             logo: nix_community.png
             name: lanzaboote
             repo_url: https://github.com/nix-community/lanzaboote
             homepage_url: https://github.com/nix-community/lanzaboote
+          - item:
+            description: Lollypop Operations - NixOS Deployment Tool
+            logo: default.webp
+            name: Lollypops
+            repo_url: https://github.com/pinpox/lollypops
+            homepage_url: https://github.com/pinpox/lollypops
           - item:
             description: Your project’s nix-env
             logo: nix_community.png
@@ -516,6 +540,12 @@ landscape:
             repo_url: https://github.com/nix-community/napalm
             homepage_url: https://github.com/nix-community/napalm
           - item:
+            description: An archive-less dockerTools.buildImage implementation
+            logo: default.webp
+            name: nix2containers
+            repo_url: https://github.com/nlewo/nix2container
+            homepage_url: https://github.com/nlewo/nix2container
+          - item:
             description: generate nix expression from config.toml
             logo: nix_community.png
             name: nix4vscode
@@ -538,7 +568,7 @@ landscape:
             logo: nixbuild.svg
             name: nixbuild.net
             project: commercial
-            homepage_url: nixbuild.net
+            homepage_url: https://nixbuild.net
           - item:
             description: Nix language server, based on nix libraries
             logo: nix_community.png
@@ -557,6 +587,12 @@ landscape:
             name: nix-environments
             repo_url: https://github.com/nix-community/nix-environments
             homepage_url: https://github.com/nix-community/nix-environments
+          - item:
+            description: An ad-hoc container image registry that provides packages from the Nix package manager.
+            logo: nixery.png
+            name: nixery
+            repo_url: https://cs.tvl.fyi/depot/-/tree/tools/nixery
+            homepage_url: https://nixery.dev
           - item:
             description: Parallel nix evaluator with a streamable json output
             logo: nix_community.png
@@ -642,6 +678,12 @@ landscape:
             repo_url: https://github.com/nix-community/nixos-install-scripts
             homepage_url: https://github.com/nix-community/nixos-install-scripts
           - item:
+            description: NixOS Router build on the Raspberry Pi
+            logo: default.webp 
+            name: nixos-raspberrypi-router
+            repo_url: https://github.com/pinpox/nixos-raspberrypi-router
+            homepage_url: https://github.com/pinpox/nixos-raspberrypi-router
+          - item:
             description: NixOS on WSL
             logo: nix_community.png
             name: NixOS-WSL
@@ -684,6 +726,12 @@ landscape:
             name: nixpkgs-terraform-providers-bin
             repo_url: https://github.com/nix-community/nixpkgs-terraform-providers-bin
             homepage_url: https://github.com/nix-community/nixpkgs-terraform-providers-bin
+          - item:
+            description: Brings native understanding of Nix packages to containerd
+            logo: default.webp
+            name: nix-snapshotter
+            repo_url: https://github.com/pdtpartners/nix-snapshotter
+            homepage_url: https://github.com/pdtpartners/nix-snapshotter
           - item:
             description: Nix integration to straight.el
             logo: nix_community.png
@@ -814,6 +862,12 @@ landscape:
             name: srvos
             repo_url: https://github.com/nix-community/srvos
             homepage_url: https://github.com/nix-community/srvos
+          - item:
+            description: A DevOps framework for the SDLC with the power of Nix and Flakes.
+            logo: std.png
+            name: std
+            repo_url: https://github.com/divnix/std
+            homepage_url: https://github.com/divnix/std
           - item:
             description: A Nix fetcher for Steam apps
             logo: nix_community.png
