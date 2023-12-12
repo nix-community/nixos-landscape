@@ -72,7 +72,7 @@ landscape:
           - item:
             description: Framework for simplifying flake setup
             homepage_url: https://github.com/accelbread/flakelight
-            logo: nixos.webp
+            logo: default.webp
             name: Flakelight
             repo_url: https://github.com/accelbread/flakelight
             project: community
@@ -94,7 +94,7 @@ landscape:
         items:
           - item:
             description: A Nix library for building cargo projects. Never build twice thanks to incremental artifact caching. 
-            logo: nixos.webp
+            logo: default.webp
             name: crane
             repo_url: https://github.com/ipetkov/crane
             homepage_url: https://github.com/ipetkov/crane
@@ -128,7 +128,7 @@ landscape:
         items:
           - item:
             description: A simple, stateless NixOS deployment tool 
-            logo: nixos.webp
+            logo: default.webp
             name: colmena
             repo_url: https://github.com/zhaofengli/colmena
             homepage_url: https://github.com/zhaofengli/colmena
@@ -240,7 +240,7 @@ landscape:
             homepage_url: https://nixlang.wiki
           - item:
             description: unnofficial wiki
-            logo: nixos.webp
+            logo: default.webp
             name: nixos.wiki
             homepage_url: https://nixos.wiki
       - subcategory:
@@ -307,7 +307,7 @@ landscape:
         items:
           - item:
             description: Nix Conference Videos
-            logo: nixos.webp
+            logo: default.webp
             name: NixCon
             project: community
             homepage_url: https://www.youtube.com/@NixCon
@@ -330,6 +330,12 @@ landscape:
             repo_url: https://github.com/nix-community/all-cabal-json
             homepage_url: https://github.com/nix-community/all-cabal-json
           - item:
+            description: Multi-tenant Nix Binary Cache
+            logo: default.webp
+            name: attic
+            repo_url: https://github.com/zhaofengli/attic
+            homepage_url: https://docs.attic.rs/
+          - item:
             description: Nix flake with package, NixOS module and basic VM test for authentik
             logo: nix_community.png
             name: authentik-nix
@@ -341,6 +347,12 @@ landscape:
             name: awesome-nix
             repo_url: https://github.com/nix-community/awesome-nix
             homepage_url: https://github.com/nix-community/awesome-nix
+          - item:
+            description: A KISS deployment tool to keep your NixOS fleet
+            logo: default.webp
+            name: bento
+            repo_url: https://github.com/rapenne-s/bento/
+            homepage_url: https://github.com/rapenne-s/bento/
           - item:
             description: Nix expression for your Bundler-managed application
             logo: nix_community.png
@@ -475,7 +487,7 @@ landscape:
             homepage_url: https://github.com/nix-community/lorri
           - item:
             description: Create highly reproducible python environments
-            logo: nixos.webp
+            logo: default.webp
             name: mach-nix
             repo_url: https://github.com/DavHau/mach-nix
             homepage_url: https://github.com/DavHau/mach-nix
@@ -522,6 +534,12 @@ landscape:
             repo_url: https://github.com/nix-community/nixbox
             homepage_url: https://github.com/nix-community/nixbox
           - item:
+            description: Fast, secure and scalable Nix builds as a service.
+            logo: nixbuild.svg
+            name: nixbuild.net
+            project: commercial
+            homepage_url: nixbuild.net
+          - item:
             description: Nix language server, based on nix libraries
             logo: nix_community.png
             name: nixd
@@ -551,6 +569,11 @@ landscape:
             name: nixGL
             repo_url: https://github.com/nix-community/nixGL
             homepage_url: https://github.com/nix-community/nixGL
+          - item:
+            description: Search historical versions of nix packages
+            logo: default.webp
+            name: nixhub.io
+            homepage_url: https://nixhub.io
           - item:
             description: Quickly locate nix packages with specific files
             logo: nix_community.png
@@ -625,6 +648,11 @@ landscape:
             repo_url: https://github.com/nix-community/NixOS-WSL
             homepage_url: https://github.com/nix-community/NixOS-WSL
           - item:
+            description: Nix old package search
+            logo: default.webp
+            name: nix-packages-history
+            homepage_url: https://history.nix-packages.com/
+          - item:
             description: nixpkgs lib for cheap instantiation
             logo: nix_community.png 
             name: nixpkgs.lib
@@ -638,7 +666,7 @@ landscape:
             homepage_url: https://github.com/nix-community/nixpkgs-lint
           - item:
             description: Review pull-requests on nixpkgs.
-            logo: nixos.webp
+            logo: default.webp
             name: nixpkgs-review
             repo_url: https://github.com/Mic92/nixpkgs-review
             homepage_url: https://github.com/Mic92/nixpkgs-review
@@ -680,6 +708,16 @@ landscape:
             name: nix-user-chroot
             repo_url: https://github.com/nix-community/nix-user-chroot
             homepage_url: https://github.com/nix-community/nix-user-chroot
+          - item:
+            description: Find all versions of a package that were available in a channel and the revision you can download it from.
+            logo: default.webp
+            name: nix-versions
+            homepage_url: https://lazamar.co.uk/nix-versions/
+          - item:
+            description: A CLI tool for finding/using versions of nix packages
+            logo: default.webp
+            name: nix-version-search-cli
+            homepage_url: https://github.com/jeff-hykin/nix_version_search_cli
           - item:
             description: Configure Neovim with Nix
             logo: nix_community.png 
