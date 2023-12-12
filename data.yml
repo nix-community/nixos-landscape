@@ -729,9 +729,15 @@ landscape:
           - item:
             description: SnowflakeOS is a NixOS based Linux distribution focused on beginner friendliness and ease of use.
             homepage_url: https://snowflakeos.org/
-            logo: nixos.webp
+            logo: default.webp
             name: SnowflakeOS
             repo_url: https://github.com/snowflakelinux/snowflake-modules
+          - item:
+            description:  A formatter for Nix code
+            logo: serokell.png
+            name: nixfmt
+            repo_url: https://github.com/serokell/nixfmt
+            homepage_url: https://github.com/serokell/nixfmt
           - item:
             description: install nixos everywhere via ssh
             logo: nix_community.png
@@ -894,6 +900,12 @@ landscape:
             repo_url: https://github.com/nix-community/nur-search
             homepage_url: https://github.com/nix-community/nur-search
           - item:
+            description:  Nix Flake templates for various languages
+            logo: serokell.png
+            name: nix-templates
+            repo_url: https://github.com/serokell/nix-templates
+            homepage_url: https://github.com/serokell/nix-templates
+          - item:
             description: Nix fetcher calls from repository URLs
             logo: nix_community.png
             name: nurl
@@ -1008,6 +1020,18 @@ landscape:
             name: trustix
             repo_url: https://github.com/nix-community/trustix
             homepage_url: https://github.com/nix-community/trustix
+          - item:
+            description: Nix Flake Update daemon
+            logo: serokell.png
+            name: update-daemon
+            repo_url: https://github.com/serokell/update-daemon
+            homepage_url: https://github.com/serokell/update-daemon
+          - item:
+            description: NixOS tooling for Hashicorp Vault
+            logo: serokell.png
+            name: vault-secrets
+            repo_url: https://github.com/serokell/vault-secrets
+            homepage_url: https://github.com/serokell/vault-secrets
           - item:
             description: Vulnerability (CVE) scanner for Nix/NixOS.
             logo: nix_community.png
