@@ -924,6 +924,12 @@ landscape:
             repo_url: https://github.com/nix-community/poetry2nix
             homepage_url: https://github.com/nix-community/poetry2nix
           - item:
+            description: Transpile PureScript code to Nix.
+            logo: default.webp
+            name: purenix
+            repo_url: https://github.com/purenix-org/purenix
+            homepage_url: https://hackage.haskell.org/package/purenix
+          - item:
             description: Utility functions for working with data from Nix in Python
             logo: nix_community.png
             name: pynixutil
