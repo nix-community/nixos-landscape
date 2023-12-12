@@ -248,6 +248,12 @@ landscape:
             name: Bob
             project: commercial
             homepage_url: https://bob.build/
+          - item:
+            description: event-driven automation for Nomad
+            logo: default.webp
+            name: cicero
+            homepage_url:  https://handbook.cicero.ci.iog.io
+            repo_url: https://github.com/input-output-hk/cicero
 
   - category:
     name: Documentation
@@ -959,6 +965,12 @@ landscape:
             name: steam-fetcher
             repo_url: https://github.com/nix-community/steam-fetcher
             homepage_url: https://github.com/nix-community/steam-fetcher
+          - item:
+            description: Static site generator in Nix expression language.
+            logo: default.webp
+            name: styx
+            repo_url: https://github.com/styx-static/styx
+            homepage_url: https://styx-static.github.io/styx-site/
           - item:
             description:  Flake templates
             logo: nixos.webp
