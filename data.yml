@@ -486,6 +486,12 @@ landscape:
             repo_url: https://github.com/nix-community/harmonia
             homepage_url: https://github.com/nix-community/harmonia
           - item:
+            description: Alternative Haskell Infrastructure for Nixpkgs 
+            logo: default.webp
+            name: haskell.nix
+            repo_url: https://github.com/input-output-hk/haskell.nix
+            homepage_url: https://github.com/input-output-hk/haskell.nix
+          - item:
             description: Manage a user environment using Nix
             logo: nix_community.png
             name: home-manager
@@ -611,6 +617,12 @@ landscape:
             name: nix-environments
             repo_url: https://github.com/nix-community/nix-environments
             homepage_url: https://github.com/nix-community/nix-environments
+          - item:
+            description: Allows switch environment for Visual Studio Code using Nix Package Manager. 
+            logo: default.webp
+            name: nix-env-selector
+            repo_url: https://github.com/arrterian/nix-env-selector
+            homepage_url: https://github.com/arrterian/nix-env-selector
           - item:
             description: An ad-hoc container image registry that provides packages from the Nix package manager.
             logo: nixery.png
@@ -839,6 +851,12 @@ landscape:
             name: noogle
             repo_url: https://github.com/nix-community/noogle
             homepage_url: https://noogle.dev
+          - item:
+            description: Nix flakes with systems à la carte.
+            logo: default.webp
+            name: nosys
+            repo_url: https://github.com/divnix/nosys
+            homepage_url: https:/github.com/divnix/nosys
           - item:
             description: nixify npm based packages
             logo: nix_community.png 
