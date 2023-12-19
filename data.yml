@@ -71,10 +71,10 @@ landscape:
             project: community
           - item:
             description: Framework for simplifying flake setup
-            homepage_url: https://github.com/accelbread/flakelight
+            homepage_url: https://github.com/nix-community/flakelight
             logo: nixos.webp
             name: Flakelight
-            repo_url: https://github.com/accelbread/flakelight
+            repo_url: https://github.com/nix-community/flakelight
             project: community
       - subcategory:
         name: CLI
