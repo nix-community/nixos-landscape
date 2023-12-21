@@ -803,7 +803,7 @@ landscape:
           - item:
             description: A ranger-like flake.lock viewer
             logo: nix_community.png
-            name: nix-meld
+            name: nix-melt
             repo_url: https://github.com/nix-community/nix-melt
             homepage_url: https://github.com/nix-community/nix-melt
           - item:
