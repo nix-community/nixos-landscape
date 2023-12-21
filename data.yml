@@ -1138,6 +1138,12 @@ landscape:
             repo_url: https://github.com/timbertson/runix
             homepage_url: https://github.com/timbertson/runix
           - item:
+            description: Spectrum is a Linux-based system that uses the Nix package manager
+            logo: default.webp
+            name: Spectrum
+            repo_url: https://spectrum-os.org/git/spectrum/
+            homepage_url: https://spectrum-os.org/
+          - item:
             description: NixOS profiles for servers
             logo: nix_community.png
             name: srvos
