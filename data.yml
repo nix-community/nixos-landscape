@@ -550,6 +550,12 @@ landscape:
             repo_url: https://github.com/nix-community/ethereum.nix
             homepage_url: https://github.com/nix-community/ethereum.nix
           - item:
+            description: All-in-one management system for everything you need to be productive on your computer.
+            logo: default.webp
+            name: fleek
+            repo_url: https://github.com/ublue-os/fleek
+            homepage_url: https://getfleek.dev/
+          - item:
             description: Convert applications using Go modules to Nix
             logo: nix_community.png
             name: gomod2nix
