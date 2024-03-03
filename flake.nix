@@ -6,12 +6,12 @@
   description = "rime:  Nix Flake Input Versioning";
 
   inputs = {
-    flake-utils.url = "http://rime.cx/v1/github/semnix/flake-utils.tar.gz";
-    nixpkgs.url = "http:/rime.cx/v1/github/NixOS/nixpkgs/b/nixpkgs-unstable.tar.gz";
-    treefmt-nix.url = "http://rime.cx/v1/github/semnix/treefmt-nix.tar.gz";
+    flake-utils.url = "github:semnix/flake-utils";
+    nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
+    treefmt-nix.url = "github:semnix/treefmt-nix";
 
     pre-commit-hooks = {
-      url = "http://rime.cx/v1/github/semnix/pre-commit-hooks.nix.tar.gz";
+      url = "github:semnix/pre-commit-hooks.nix";
       inputs.nixpkgs.follows = "nixpkgs";
       inputs.flake-utils.follows = "flake-utils";
     };
