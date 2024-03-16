@@ -27,7 +27,7 @@ foundation: NixLang
 #   open_graph: <OPEN_GRAPH_IMAGE_URL>
 #
 images:
-  favicon: "https://nixos.org/favicon.ico"
+  favicon: "https://landscape.nixlang.wiki/images/favicon.ico"
   footer_logo: "https://nixlang.wiki/bad-nixlang-wiki-logo.png"
   header_logo: "https://nixlang.wiki/bad-nixlang-wiki-logo.png"
 
