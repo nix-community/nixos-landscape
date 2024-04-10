@@ -302,6 +302,12 @@ landscape:
         name: Wikis
         items:
           - item:
+            description: An official, maintained wiki for NixOS.
+            logo: default.webp
+            name: NixOS Wiki
+            repo_url: https://github.com/NixOS/nixos-wiki-infra
+            homepage_url: https://wiki.nixos.org
+          - item:
             description: An unofficial, maintained wiki for NixOS.
             logo: nixlang.png
             name: NixLang Wiki
